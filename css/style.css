@@ -74,6 +74,9 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
+    display: flex;
+    justify-content: space-between;
+    
 }
 footer li{
     list-style: none;
@@ -82,8 +85,8 @@ footer li{
 }
 .right-option{
     background-color: gray;
-    color: red;
-    padding: 1;
-    
+    color: rgb(191, 36, 36);
+    padding: 20px 10px;
+    font-weight: 700;
 }
 
