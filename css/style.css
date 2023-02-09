@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* utilities */
+.flex{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+/* layout */
+.wrapper{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black
+}
+
+.user-cont{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* debug */
+    background-color: gray;
+    height: 70vh;
+}
+.row{
+    width: calc(100% / 7);
+    height: calc(100%/7);
+}
+.row img{
+    width: 100%;
+    padding: 5px;  
+}
+.user{
+    position: relative;
+}
+
+.user span{
+    position: absolute;
+    bottom: 9px;
+    left: 5px;
+    
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    padding: 2px;
+    font-size: x-small;
+}
